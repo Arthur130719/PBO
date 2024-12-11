@@ -4,6 +4,7 @@ public class Nilai {
     public double Quis;
     public double UTS;
     public double UAS;
+<<<<<<< HEAD
 
     public double getNA() {
         return 0.20 * Quis + 0.30 * UTS + 0.5 * UAS;
@@ -33,3 +34,10 @@ public class Nilai {
         System.out.println("Grade: " + getGrade());
     }
 }
+=======
+    public double getNA() {
+        return 0.20*Quis+0.30*UTS+0.5*UAS;
+    }
+    
+}
+>>>>>>> 115f004985744a3b7973826e97920d2e9499f7fb

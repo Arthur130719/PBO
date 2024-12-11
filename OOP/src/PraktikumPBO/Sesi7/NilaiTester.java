@@ -2,6 +2,7 @@ package PraktikumPBO.Sesi7;
 
 public class NilaiTester {
     public static void main(String[] args) {
+<<<<<<< HEAD
         Nilai n = new Nilai();
         
         n.Quis = 90;
@@ -16,4 +17,13 @@ public class NilaiTester {
             System.out.println("Grade: " + n.getGrade());
         }
     }
+=======
+        Nilai n= new Nilai ();
+        n.Quis=90;
+        n.UTS=70;
+        n.UAS=150;
+        System.out.println("NA : " +n.getNA());
+    }
+    
+>>>>>>> 115f004985744a3b7973826e97920d2e9499f7fb
 }
